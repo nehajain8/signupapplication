@@ -1,0 +1,30 @@
+label {
+    color :red;
+}
+h1 {
+    color: blue;
+}
+.container{
+    color: blue;
+    padding: 25px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+li {
+    color: red;
+}
+.nav {
+    margin: 10px 0;
+}
+.nav,.nav li {
+    display: inline-block;
+}
+.nav li:first-child {
+    padding-left: 0;
+}
+.nav li {
+    padding: 0 25px;
+}
+a:active,a:hover,a:focus{
+    color: darkblue;
+}
